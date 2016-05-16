@@ -9,34 +9,57 @@ body {
     background-position: center center;
     background-attachment: fixed;
 	background-image: url("images/Sauron.jpg");  
-	background-color: #001428;
+	background-color: #0d0d0d;
 /* 	background-repeat: no-repeat; */
 /* 	background-position: right-top; */
 /* 	background-attachment: fixed; */
 	/* margin-left: 2%;				  
 	margin-right: 20%; */
-	border: solid;
+	border: none;
 	color: #FFFFFF;
-	padding: 10px 10px 10px 10px;
+	
 	
 	/* font-family: Arial Black; */
 }
 
+section {
+	margin-left: 16px;
+	margin-right: 16px;
+	padding: 37px;
+	border: 3px solid #d11500;
+	visibility: hidden;
+}
+
+
+.logo {
+	width: 13%;
+	float: left;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding: 0px 6px;
+	
+}
+
+/* .cursorTest {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	cursor:url("../dropdown tab menu/images/Mouse_Cursor_2 clone.gif"), auto;
+} */
+
 .infoDropbtn {
-    background-color: #ff4900;
+    background-color: #330000;
     color: white;
-    padding: 16px;
+    padding: 32px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
 .infoDropbtn:hover, .infoDropbtn:focus {
-    background-color: #004080;
+    background-color: #950404;
 }
 
 .infoDropdown {
-	float: center center;
+	float: left;
 	background-attachment: fixed;
     position: relative;
     display: inline-block;
@@ -45,34 +68,38 @@ body {
 
 .infoDropdown-content {
     display: none;
-    position: relative;
-    background-color: #f9f9f9;
+    position: absolute;
+    background-color: #8c8c8c;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .infoDropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 16px 16px 16px 32px;
     text-decoration: none;
     display: block;
+	position: center center;
 }
 
 .infoDropdown-content a:hover {
-	background-color: #f1f1f1
+	background-color: #f1f1f1;
+	background-image: url("images/sauron eye.png");
+	background-repeat: no-repeat;
+	background-attachment: relative;
 }
 
 .newsDropbtn {
-    background-color: #001428;
+    background-color: #330000;
     color: white;
-    padding: 16px;
+    padding: 32px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
 .newsDropbtn:hover, .newsDropbtn:focus {
-    background-color: #004080;
+    background-color: #950404;
 }
 
 .newsDropdown {
@@ -84,8 +111,8 @@ body {
 
 .newsDropdown-content {
     display: none;
-    position: fixed;
-    background-color: #f9f9f9;
+    position: absolute;
+    background-color: #8c8c8c;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -102,16 +129,16 @@ body {
 }
 
 .profileDropbtn {
-    background-color: #001428;
+    background-color: #330000;
     color: white;
-    padding: 16px;
+    padding: 32px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
 .profileDropbtn:hover, .profileDropbtn:focus {
-    background-color: #004080;
+    background-color: #950404;
 }
 
 .profileDropdown {
@@ -123,8 +150,8 @@ body {
 
 .profileDropdown-content {
     display: none;
-    position: fixed;
-    background-color: #f9f9f9;
+    position: absolute;
+    background-color: #8c8c8c;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -141,21 +168,21 @@ body {
 }
 
 .helpDropbtn {
-    background-color: #001428;
+    background-color: #330000;
     color: white;
-    padding: 16px;
+    padding: 32px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
 .helpDropbtn:hover, .helpDropbtn:focus {
-    background-color: #004080;
+    background-color: #950404;
 }
 
 .helpDropdown {
 	float: left;
-    position: fixed;
+    position: relative;
     display: inline-block;
 	border: 1px solid black;
 }
@@ -163,7 +190,7 @@ body {
 .helpDropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #8c8c8c;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
