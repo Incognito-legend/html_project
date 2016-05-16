@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Legend of Magvel </title>
+<style type="text/css">
+
+.HomepageButton {
+	border-radius: 4px;
+	background-color: #001428;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.homepageButton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+
+}
+
+.homepageButton span:after {
+	content: '»';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+
+}
+
+.homepageButton:after {
+  background-color: #00264d;
+  display: inline-block;
+  transition: 0.5s;
+  
+}
+
+.homepageButton:hover span {
+	padding-right: 25px;
+
+}
+
+.homepageButton:hover span:after {
+	opacity: 1;
+	right: 0;
+
+}
+</style>
+</head>	
+<body>
+
+<a href="Magvel Forums Tab/cdt.html"><button class="homepageButton"><span> Forums </span></button></a>
+
+<h1> Legend of Magvel </h1>
+
+</body>
+
+</html>

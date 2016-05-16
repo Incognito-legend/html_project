@@ -1,0 +1,2 @@
+background-color: #001428; dark blue
+#708090 - color name -> SlateGray or SlateGrey
