@@ -22,12 +22,23 @@ body {
 	/* font-family: Arial Black; */
 }
 
-section {
-	margin-left: 16px;
-	margin-right: 16px;
-	padding: 37px;
+h2.ontop {
+  position: relative;
+  top: 4.7em;
+}
+
+
+section{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -6px;
+	
+	padding-top: 60px;
+	padding-bottom: 30px;
+	
 	border: 3px solid #d11500;
-	visibility: hidden;
+	visibility: visible;
+	background-attachment: fixed;
 }
 
 
@@ -36,7 +47,8 @@ section {
 	float: left;
 	margin-left: 16px;
 	margin-right: 16px;
-	padding: 0px 6px;
+	padding-left: 0px;
+	padding-right: 16px;
 	
 }
 
@@ -52,10 +64,13 @@ section {
     font-size: 16px;
     border: none;
     cursor: pointer;
+	opacity: 0.9;
 }
 
 .infoDropbtn:hover, .infoDropbtn:focus {
     background-color: #950404;
+	opacity: 1;
+	transition: .8s;
 }
 
 .infoDropdown {
@@ -84,9 +99,11 @@ section {
 
 .infoDropdown-content a:hover {
 	background-color: #f1f1f1;
-	background-image: url("images/sauron eye.png");
+	background-image: url("images/dropdown menu select emblem.png");
 	background-repeat: no-repeat;
-	background-attachment: relative;
+	background-attachment: absolute;
+	background-position: left center;
+	padding-left: 48px;
 }
 
 .newsDropbtn {
